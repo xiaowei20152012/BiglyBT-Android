@@ -65,3 +65,15 @@ Running is only few more steps:
 We build our installers using [Install4j, multi-platform installer builder](https://www.ej-technologies.com/products/install4j/overview.html)
 
 ![Install4j Logo](https://www.ej-technologies.com/images/product_banners/install4j_large.png)
+
+<!--  1.3.2.0 -->
+
+<!--  8caad2b9b54ae45938150c7920c7a7587eefaa8a Android-DirectoryChooser (v3.2-46-g8caad2b) -->
+<!--  ed1c82ef6226a3deb92853fb70bdbb509f8c323f BiglyBT-plugin-aercm (ed1c82e) -->
+<!--  b430cb8098061d238aabfc3240a3dbba5d6e144a BiglyBT-plugin-azutp (b430cb8) -->
+<!--  a74e46b70cfd56009267e0f20a90cb00dbbb74a4 BiglyBT-plugin-mlDHT (remotes/origin/android) -->
+<!--  d8020c96f1e66e691b2d5328c3728e6fdb49a829 BiglyBT-plugin-xmwebui (d8020c9) -->
+<!--  526927114c9b64ccc76e64a1e97ee76753624de0 core (v2.6.0.0-155-g52692711) -->
+<!--  58c946f0c70c5844cbe6798533b361ff036296f0 mldht (old_indexer-394-g58c946f) -->
+
+
