@@ -1,0 +1,7 @@
+/.classpath
+/.project
+*.class
+/*.jar
+/*.biglybt
+/*.zip
+/build/

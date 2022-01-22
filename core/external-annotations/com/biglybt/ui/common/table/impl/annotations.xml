@@ -1,0 +1,58 @@
+<root>
+    <item name='com.biglybt.ui.common.table.impl.TableColumnImpl com.biglybt.pif.ui.tables.TableContextMenuItem addContextMenuItem(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name="org.jetbrains.annotations.PropertyKey">
+            <val name="resourceBundle" val="com.biglybt.internat.MessagesBundle"/>
+        </annotation>
+    </item>
+    <item name='com.biglybt.ui.common.table.impl.TableColumnImpl com.biglybt.pif.ui.tables.TableContextMenuItem addContextMenuItem(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name="org.jetbrains.annotations.PropertyKey">
+            <val name="resourceBundle" val="com.biglybt.internat.MessagesBundle"/>
+        </annotation>
+    </item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnImpl java.lang.String getTitleLanguageKey()'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnImpl java.lang.String getTitleLanguageKey(boolean)'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item name='com.biglybt.ui.common.table.impl.TableColumnImpl sTableID'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnManager com.biglybt.ui.common.table.TableColumnCore[] getAllTableColumnCoreAsArray(java.lang.Class, java.lang.String)'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnManager com.biglybt.ui.common.table.impl.TableColumnManager getInstance()'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnManager java.lang.String[] getDefaultSortColumnNames(java.lang.String)'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item name='com.biglybt.ui.common.table.impl.TableColumnManager java.util.Map&lt;java.lang.String,com.biglybt.ui.common.table.TableColumnCore&gt; getTableColumnsAsMap(java.lang.Class, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnManager void setDefaultSortColumnName(java.lang.String, java.lang.String...) 1'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableColumnManager void setDefaultSortColumnNames(java.lang.String, java.lang.String[], boolean) 1'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item
+		name='com.biglybt.ui.common.table.impl.TableViewImpl boolean hasSortColumn(com.biglybt.pif.ui.tables.TableColumn) 0'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item name='com.biglybt.ui.common.table.impl.TableViewImpl rows_sync'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+	<item name='com.biglybt.ui.common.table.impl.TableViewImpl sortColumns'>
+		<annotation name='org.jetbrains.annotations.NotNull'/>
+	</item>
+</root>

@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>biglybt-core-android</artifactId>
+	<packaging>takari-jar</packaging>
+	<name>BiglyBT - Core (Android)</name>
+
+	<parent>
+		<groupId>com.biglybt</groupId>
+		<artifactId>biglybt-parent</artifactId>
+		<version>2.5.0.1-SNAPSHOT</version>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>commons-cli</groupId>
+			<artifactId>commons-cli</artifactId>
+			<version>1.4</version>
+		</dependency>
+	</dependencies>
+	<!-- Android Note: MessageTextTest assumes full messagebundle, but we only have the "none" one -->
+	<properties>
+		<maven.test.skip>true</maven.test.skip>
+	</properties>
+
+	<build>
+		<sourceDirectory>src/</sourceDirectory>
+		<testSourceDirectory>src.test/</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src</directory>
+				<includes>
+					<include>**/*.gif</include>
+					<include>**/sun.net.spi.nameservice.NameServiceDescriptor</include>
+					<include>**/*.xsd</include>
+				</includes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

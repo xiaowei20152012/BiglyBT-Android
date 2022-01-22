@@ -1,0 +1,38 @@
+root = true
+
+[*]
+charset = utf-8
+
+[*.java]
+tab_width = 2
+indent_style = tab
+indent_size = 2
+continuation_indent_size = 2
+#git on windows auto converts LF -> CRLF and back when committing
+#Setting `end_of_line = lf` causes IntelliJ IDEA to get confused.
+# 1) Go to existing file
+# 2) Add a new line
+# 3) Remove the new line
+# 4) When `end_of_line = lf` is set, Intellij thinks it has a commit to push.  The commit is empty
+#end_of_line = lf
+spaces_around_operators = true
+spaces_around_brackets = outside
+curly_bracket_next_line = false
+indent_brace_style = K&R
+quote_type = double
+# ALthough we want trailing whitepaces trimmed, this option is too aggressive and causes harder to read commits
+# IntelliJ IDEA has Settings->Editor->General->Strip trailing spaces on Save that can be set to "Modified Lines" which sometimes works properly
+#trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.xml]
+tab_width = 2
+indent_style = tab
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+
+[*.md]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false

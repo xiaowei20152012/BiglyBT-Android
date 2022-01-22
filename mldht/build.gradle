@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion 24
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        encoding = "UTF-8"
+
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+ 
+    sourceSets {
+        main {
+            java {
+                srcDirs = [
+                        'src'
+                ]
+                exclude 'the8472/mldht/**'
+            }
+
+            resources {
+                includes = ['**/*.properties']
+                srcDirs = [
+                        'src'
+                ]
+                exclude 'bin/**'
+                exclude 'bin'
+                exclude 'test/**'
+                exclude 'test'
+            }
+        }
+    }
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.1'
+    implementation "androidx.annotation:annotation:${annotationVersion}"
+
+    implementation 'net.i2p.crypto:eddsa:0.3.0'
+}

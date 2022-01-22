@@ -1,0 +1,24 @@
+language: android
+
+jdk:
+ - oraclejdk8
+
+android:
+  components:
+    - tools
+    - extra-android-support
+    - extra-android-m2repository
+    - build-tools-25.0.2
+    - android-25
+  licenses:
+    - '.+'
+
+script:
+ - ./gradlew clean assembleDebug
+ - ./gradlew testDebug --info
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.gradle
